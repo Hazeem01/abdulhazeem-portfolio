@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Abdulhazeem Adenekan - Portfolio
 
-## Getting Started
+This is a portfolio website built with Next.js and styled using Material-UI (MUI). It showcases my skills, experience, and projects as a Full-Stack Developer.
 
-First, run the development server:
+Features
+	•	Fully responsive design for mobile, tablet, and desktop.
+	•	Dynamic routing with Next.js for pages like Home, About, Projects, and Contact.
+	•	Styled with Material-UI for a modern and professional look.
+	•	Integrated drawer navigation for better mobile usability.
+	•	A dedicated “View My Resume” button linking to a downloadable PDF of my resume.
 
-```bash
+Getting Started
+
+Prerequisites
+
+Make sure you have the following installed:
+	•	Node.js
+	•	npm or yarn
+
+Steps to Run Locally
+	1.	Clone the repository:
+
+git clone https://github.com/Hazeem01/abdulhazeem-portfolio.git
+cd portfolio
+
+
+	2.	Install dependencies:
+
+npm install
+# or
+yarn install
+
+
+	3.	Start the development server:
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+	4.	Open http://localhost:3000 in your browser to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Project Structure
 
-## Learn More
+.
+├── app/               # Next.js App Directory
+│   ├── about/         # About page
+│   ├── contact/       # Contact page
+│   ├── projects/      # Projects page
+│   ├── layout.tsx     # Root layout for shared components (header, footer)
+│   └── page.tsx       # Home page
+├── components/        # Reusable UI components
+│   ├── Header.tsx     # Header component with navigation
+│   ├── Footer.tsx     # Footer component
+│   ├── SkillCard.tsx  # Skill card for About page
+│   └── ProjectCard.tsx# Project card for Projects page
+├── public/            # Static assets (images, resume)
+│   ├── profile.jpg    # Profile picture
+│   └── resume.pdf     # Resume file
+├── styles/            # Global styles (if any)
+├── README.md          # Project documentation
+├── package.json       # Project dependencies and scripts
+└── tsconfig.json      # TypeScript configuration
 
-To learn more about Next.js, take a look at the following resources:
+Customization
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Changing Profile Picture
+	•	Replace public/profile.jpg with your own profile picture. Ensure the new file has the same name.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Updating Resume
+	•	Replace public/resume.pdf with your latest resume. The “View My Resume” button will automatically link to this file.
 
-## Deploy on Vercel
+Adding/Editing Projects
+	1.	Go to src/app/projects/page.tsx.
+	2.	Add or modify the projects array:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+const projects = [
+  {
+    title: "Portfolio Website",
+    description: "This portfolio website, built using Next.js and MUI.",
+    link: "https://github.com/Hazeem01/abdulhazeem-portfolio.git",
+  },
+  {
+    title: "Coming soon",
+    description:
+      "Check back later for more projects 🙂",
+  },
+];
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deployment
+
+Deploy on Vercel
+
+The easiest way to deploy this Next.js app is to use Vercel.
+	1.	Push your code to a GitHub repository.
+	2.	Import your repository into Vercel:
+	•	Go to Vercel Dashboard.
+	•	Select “New Project” and import your GitHub repo.
+	3.	Follow the deployment instructions.
+	4.	Your live website will be available at a generated URL.
+
+For more information, check out Next.js deployment documentation.
+
+Technologies Used
+	•	Next.js: For server-side rendering and routing.
+	•	Material-UI (MUI): For styling and responsive design.
+	•	TypeScript: For static typing and better code maintainability.
+
+Learn More
+
+To learn more about the tools and frameworks used in this project:
+	•	Next.js Documentation
+	•	Material-UI Documentation
+	•	TypeScript Documentation
+
+Feel free to fork and customize this portfolio to suit your needs. Contributions and feedback are welcome!
