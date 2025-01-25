@@ -19,11 +19,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 
-const metadata = {
-  title: "Abdulhazeem Adenekan - Portfolio",
-  description:
-    "Showcasing the skills and projects of Abdulhazeem Adenekan, Full-Stack Developer.",
-};
+// const metadata = {
+//   title: "Abdulhazeem Adenekan - Portfolio",
+//   description:
+//     "Showcasing the skills and projects of Abdulhazeem Adenekan, Full-Stack Developer.",
+// };
 
 export default function RootLayout({
   children,
