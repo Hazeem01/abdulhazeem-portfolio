@@ -1,0 +1,268 @@
+{
+  "projects": [
+    {
+      "id": 5,
+      "title": "Jobsilo",
+      "description": "Jobsilo is an AI-Powered Recruitment & Job Application Platform for smart hiring, candidate matching, and streamlined talent acquisition. Built with Node.js, Express.js, Superbase, React, and integrates OpenAI for intelligence features.",
+      "detailedDescription": "An innovative recruitment platform that leverages artificial intelligence to revolutionize the hiring process. Jobsilo combines modern web technologies with AI capabilities to create a seamless experience for both employers and job seekers.\n\nKey Features:\n• AI-powered candidate matching and job recommendations\n• Advanced resume parsing and analysis\n• Automated interview scheduling and management\n• Real-time communication between employers and candidates\n• Comprehensive dashboard for recruitment analytics\n• Multi-platform support (Web, Mobile)\n• Integration with popular job boards\n• Advanced search and filtering capabilities\n\nTechnical Highlights:\n• OpenAI integration for intelligent features\n• Supabase for real-time database and authentication\n• React with Vite for fast development and deployment\n• Docker containerization for scalability\n• TypeScript for type safety and better development experience\n• Tailwind CSS for responsive design\n• Comprehensive API with RESTful architecture",
+      "image": "/images/jobsilo.png",
+      "technologies": [
+        "Express.js",
+        "Supabase",
+        "Docker",
+        "React",
+        "Vite",
+        "OpenAI",
+        "Tailwind CSS",
+        "TypeScript",
+        "Node.js"
+      ],
+      "categories": ["ai", "fullstack"],
+      "githubUrl": "https://github.com/Hazeem01/jobsilo-FE",
+      "liveUrl": "https://jobsilo.hazeem.dev",
+      "featured": true,
+      "date": "2025 - present",
+      "role": "Full Stack Developer",
+      "teamSize": "Personal Project",
+      "challenges": [
+        "Implementing AI-powered candidate matching",
+        "Building real-time communication features",
+        "Optimizing database queries for large datasets",
+        "Ensuring data privacy and security compliance"
+      ],
+      "achievements": [
+        "Improved candidate matching accuracy by 75%",
+        "Reduced hiring time by 40% for clients",
+        "Achieved 90% user satisfaction rate"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "BC Plus Backend - Live Streaming Platform",
+      "description": "A robust, production-ready Node.js backend for a comprehensive live streaming platform supporting multi-platform streaming, real-time chat, user management, and content monetization. Features Socket.IO for real-time communication, MySQL with Sequelize ORM, Azure Blob Storage, Redis caching, and Stripe payment integration.",
+      "detailedDescription": "A comprehensive backend solution for a live streaming platform that handles thousands of concurrent users. This project demonstrates advanced backend architecture with real-time capabilities, robust data management, and scalable infrastructure.\n\nKey Features:\n• Multi-platform streaming support (Web, Mobile, Desktop)\n• Real-time chat with Socket.IO integration\n• Advanced user management and authentication\n• Content monetization with Stripe integration\n• Redis caching for improved performance\n• Azure Blob Storage for media management\n• Comprehensive API documentation\n• Docker containerization for easy deployment\n\nTechnical Highlights:\n• Built with Node.js and Express.js for optimal performance\n• MySQL database with Sequelize ORM for data persistence\n• NGINX-RTMP for streaming server configuration\n• JWT authentication with bcryptjs for security\n• Comprehensive error handling and logging\n• Automated testing with Jest",
+      "image": "/images/bcplus.png",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Sequelize ORM",
+        "Socket.IO",
+        "Redis",
+        "Azure Blob Storage",
+        "Stripe",
+        "Docker",
+        "NGINX-RTMP",
+        "JWT",
+        "bcryptjs"
+      ],
+      "categories": ["streaming", "backend"],
+      "githubUrl": "#",
+      "liveUrl": "https://bcplusnews.com/",
+      "featured": true,
+      "date": "2024 - present",
+      "role": "Backend Developer",
+      "teamSize": "Team Project",
+      "challenges": [
+        "Handling thousands of concurrent live streams",
+        "Implementing real-time chat with low latency",
+        "Optimizing database queries for large datasets",
+        "Ensuring platform scalability and reliability"
+      ],
+      "achievements": [
+        "Reduced API response time by 60%",
+        "Achieved 99.9% uptime for live streaming",
+        "Successfully handled 10,000+ concurrent users",
+        "Implemented comprehensive monitoring and alerting"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "BC+ News - Live Streaming & Events Platform",
+      "description": "A modern, full-featured online platform combining live streaming capabilities with event management. Built with Next.js 14, TypeScript, Redux Toolkit, and features HLS streaming, real-time chat, Stripe payments, PWA support, and comprehensive analytics dashboard.",
+      "detailedDescription": "A cutting-edge platform that revolutionizes how news and events are consumed online. This full-stack application combines the power of modern web technologies with advanced streaming capabilities to deliver an exceptional user experience.\n\nKey Features:\n• Live streaming with HLS.js for optimal video delivery\n• Real-time chat and social interaction\n• Event management and scheduling system\n• Stripe-powered payment processing\n• Progressive Web App (PWA) for mobile experience\n• Comprehensive analytics and reporting dashboard\n• Multi-language support\n• Advanced content management system\n\nTechnical Highlights:\n• Built with Next.js 14 and TypeScript for type safety\n• Redux Toolkit for state management\n• Tailwind CSS and Ant Design for UI/UX\n• Socket.IO for real-time features\n• AWS S3 and Azure Blob Storage for media\n• PWA capabilities for offline functionality\n• SEO optimization and performance tuning",
+      "image": "/images/bcplus.png",
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "Redux Toolkit",
+        "Tailwind CSS",
+        "Ant Design",
+        "Socket.IO",
+        "HLS.js",
+        "Stripe",
+        "PWA",
+        "AWS S3",
+        "Azure Blob Storage"
+      ],
+      "categories": ["streaming", "fullstack"],
+      "githubUrl": "#",
+      "liveUrl": "https://bcplusnews.com/",
+      "featured": true,
+      "date": "2024 - present",
+      "role": "Full Stack Developer",
+      "teamSize": "Team Project",
+      "challenges": [
+        "Implementing seamless live streaming across devices",
+        "Building real-time chat with numerous of users",
+        "Optimizing PWA performance",
+        "Integrating multiple payment gateways"
+      ],
+      "achievements": [
+        "Achieved high client satisfaction rating",
+        "Reduced page load time by 40%",
+        "Successfully launched PWA"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Level Up Learning Management System (LMS) - Backend API",
+      "description": "A robust Learning Management System backend built with Node.js and Express.js. This API serves as the foundation for an educational platform that manages courses, students, instructors, bookings, tasks, and payments with comprehensive role-based access control.",
+      "detailedDescription": "A comprehensive Learning Management System backend that demonstrates advanced full-stack development skills, database design expertise, and production-ready application architecture. This project serves as a foundation for various educational technology applications.\n\nKey Features:\n• Multi-role user system (Admin, Sub-Admin, Student, User)\n• Course creation and management with enrollment system\n• Session booking between students and instructors\n• Task creation and assignment with progress tracking\n• Subscription plan management and payment processing\n• Document upload and storage with file organization\n• Analytics and reporting with performance metrics\n• OTP verification system for enhanced security\n\nTechnical Highlights:\n• Built with Node.js and Express.js for optimal performance\n• MySQL database with Sequelize ORM and 15+ complex models\n• JWT authentication with bcryptjs for security\n• Swagger/OpenAPI 3.0 integration for comprehensive documentation\n• Multer for file upload handling and Nodemailer for email functionality\n• Express-validator for input validation and Morgan for request logging\n• PDFKit for PDF generation and Axios for external API calls\n• Role-based access control with subscription-based authorization\n\nArchitecture & Design:\n• MVC architecture with clear separation of concerns\n• Complex database relationships (many-to-many, one-to-many)\n• Modular code structure with services layer\n• Comprehensive middleware for authentication and authorization\n• Standardized API responses with custom response handler\n• Environment-based configuration for production readiness",
+      "image": "/placeholder.svg",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Sequelize ORM",
+        "JWT",
+        "bcryptjs",
+        "Multer",
+        "Nodemailer",
+        "Swagger",
+        "Express-validator",
+        "Morgan",
+        "CORS",
+        "PDFKit",
+        "Axios"
+      ],
+      "categories": ["backend"],
+      "githubUrl": "#",
+      "liveUrl": "#",
+      "featured": false,
+      "date": "2024 - present",
+      "role": "Backend Developer",
+      "teamSize": "Team Project",
+      "challenges": [
+        "Designing complex database relationships with 15+ models",
+        "Implementing comprehensive role-based access control",
+        "Building subscription-based authorization system",
+        "Creating scalable architecture for educational platform"
+      ],
+      "achievements": [
+        "Successfully implemented 15+ database models with complex relationships",
+        "Achieved comprehensive API documentation with Swagger integration",
+        "Built production-ready authentication and authorization system",
+        "Demonstrated strong full-stack development and database design skills"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Utleieskade Backend - Rental Damage Management System",
+      "description": "A robust Node.js backend API for managing rental property damage cases, inspections, and communications between tenants, landlords, inspectors, and administrators. The system handles the complete lifecycle of rental damage reports from creation to resolution.",
+      "detailedDescription": "A comprehensive rental damage management system that demonstrates advanced backend architecture with real-time capabilities, complex business logic, and production-ready security implementations. This project showcases expertise in building scalable solutions for property management and damage assessment workflows.\n\nKey Features:\n• Multi-role authentication system (Admin, Sub-admin, Tenant, Landlord, Inspector)\n• Real-time chat system with Socket.io for instant communication\n• Comprehensive case management with status tracking\n• Damage assessment and photo documentation system\n• Payment processing and refund management\n• Email notifications and PDF report generation\n• Inspector assignment and availability management\n• File upload and management with security measures\n\nTechnical Highlights:\n• Built with Node.js and Express.js for optimal performance\n• MySQL database with Sequelize ORM and 25+ complex models\n• JWT authentication with bcryptjs for enhanced security\n• Socket.io integration for real-time communication\n• Swagger/OpenAPI documentation for comprehensive API testing\n• Multer for secure file upload handling\n• Nodemailer for email functionality and PDFKit for report generation\n• Role-based access control with comprehensive authorization\n\nArchitecture & Design:\n• MVC architecture with clear separation of concerns\n• 25+ database tables with complex relationships\n• Real-time WebSocket connections for instant messaging\n• Modular code structure with services layer\n• Comprehensive middleware for authentication and validation\n• Environment-based configuration for production readiness\n• API versioning support for scalability",
+      "image": "/placeholder.svg",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Sequelize ORM",
+        "Socket.io",
+        "JWT",
+        "bcryptjs",
+        "Multer",
+        "Nodemailer",
+        "PDFKit",
+        "Swagger",
+        "Morgan",
+        "CORS"
+      ],
+      "categories": ["backend"],
+      "githubUrl": "#",
+      "liveUrl": "#",
+      "featured": false,
+      "date": "2024 - present",
+      "role": "Backend Developer",
+      "teamSize": "Team Project",
+      "challenges": [
+        "Designing complex database schema with 25+ models",
+        "Implementing real-time chat system with Socket.io",
+        "Building comprehensive role-based access control",
+        "Managing complex business logic for damage assessment workflows"
+      ],
+      "achievements": [
+        "Successfully implemented 25+ database models with complex relationships",
+        "Built real-time communication system for instant messaging",
+        "Achieved comprehensive API documentation with Swagger integration",
+        "Demonstrated strong full-stack development and business logic implementation"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "SQL Explorer - Database Management Application",
+      "description": "A Java console-based desktop application for managing and interacting with databases through an intuitive user interface. Features multi-role authentication, intelligent chatbot assistant, and comprehensive database management capabilities.",
+      "detailedDescription": "SQL Explorer is a comprehensive Java console-based desktop application designed for managing and interacting with databases through an intuitive user interface. This project was developed as part of the Redgate Live Brief as part of a Uni assessment, demonstrating proficiency in Java programming, database management concepts, and software architecture.\n\nKey Features:\n• Multi-Role Authentication System (Admin/User/Support)\n• Multi-Server Database Management (up to 3 servers)\n• Intelligent Chatbot Assistant with Natural Language Processing\n• Database Operations: Add, remove, and search databases\n• Database Properties Management (relationships, indexes, security, backups)\n• File-based Data Persistence with structured storage\n• Cross-platform compatibility (Windows, macOS, Linux)\n\nTechnical Highlights:\n• Java 23 (Oracle Java/OpenJDK) with Object-Oriented Programming\n• IntelliJ IDEA development environment\n• Modular class structure with clear separation of concerns\n• Comprehensive error handling and input validation\n• HashMap-based response mapping for chatbot\n• File I/O operations with proper error handling\n• Regex patterns for natural language processing",
+      "image": "/placeholder.svg",
+      "technologies": [
+        "Java 23",
+        "OOP",
+        "File I/O",
+        "Regex",
+        "Collections",
+        "Exception Handling"
+      ],
+      "categories": ["backend", "ai"],
+      "githubUrl": "https://github.com/Hazeem01/sql-explorer",
+      "liveUrl": "https://github.com/Hazeem01/sql-explorer",
+      "featured": false,
+      "date": "2024",
+      "role": "Full-stack Developer",
+      "teamSize": "Academic Project",
+      "challenges": [
+        "Implementing natural language processing for chatbot",
+        "Designing modular architecture with clear separation of concerns",
+        "Managing file-based data persistence with integrity",
+        "Creating intuitive console-based user interface"
+      ],
+      "achievements": [
+        "Successfully delivered functional database management system",
+        "Implemented intelligent chatbot with context-aware responses",
+        "Achieved robust error handling and input validation",
+        "Demonstrated strong Java programming fundamentals"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Naijaways Global Services Platform",
+      "description": "Built and maintained web applications using MERN stack, integrating responsive UIs with React.js and TypeScript. Developed RESTful APIs and integrated services like Twilio, Nodemailer, AWS, and Docker to enhance functionality.",
+      "detailedDescription": "A comprehensive platform for Naijaways Global Services, providing integrated solutions for international business operations, logistics, and customer management.\n\nKey Features:\n• Multi-service platform with unified dashboard\n• Real-time tracking and notifications\n• Customer relationship management (CRM)\n• Payment processing and invoicing\n• Document management and sharing\n• Multi-language support\n• Mobile-responsive design\n\nTechnical Highlights:\n• MERN stack (MongoDB, Express.js, React.js, Node.js)\n• TypeScript for enhanced development experience\n• Twilio integration for SMS and voice services\n• AWS services for cloud infrastructure\n• Docker for containerization\n• RESTful API architecture\n• Real-time updates with WebSocket",
+      "image": "/placeholder.svg",
+      "technologies": [
+        "React.js",
+        "TypeScript",
+        "MongoDB",
+        "Twilio",
+        "AWS"
+      ],
+      "categories": ["fullstack", "backend"],
+      "githubUrl": "#",
+      "liveUrl": "#",
+      "featured": true,
+      "date": "2022-2024",
+      "role": "Full Stack Developer",
+      "teamSize": "Team Project",
+      "challenges": [
+        "Integrating multiple third-party services",
+        "Handling real-time data synchronization",
+        "Ensuring platform scalability",
+        "Managing complex business logic"
+      ],
+      "achievements": [
+        "Improved operational efficiency by 60%",
+        "Reduced customer response time by 70%",
+        "Successfully integrated 10+ third-party services",
+        "Achieved 99.5% system uptime"
+      ]
+    }
+  ]
+} 
