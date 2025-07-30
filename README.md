@@ -133,7 +133,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-- **Portfolio**: [hazeem.dev](https://hazeem.dev)
+- **Portfolio**: [www.hazeem.dev](https://www.hazeem.dev)
 - **GitHub**: [@Hazeem01](https://github.com/Hazeem01)
 - **LinkedIn**: [Abdulhazeem](https://www.linkedin.com/in/abdulhazeem-adenekan)
 - **Email**: hazeem4877@gmail.com
