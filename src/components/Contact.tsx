@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Mail,
   MapPin,
@@ -14,6 +14,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from "@emailjs/browser";
+import { EMAILJS_CONFIG, initEmailJS } from "@/config/emailjs";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,6 +26,10 @@ const Contact = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+
+  useEffect(() => {
+    initEmailJS();
+  }, []);
 
   const contactInfo = [
     {
@@ -70,22 +76,45 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    try {
+      const templateParams = {
+        user_name: formData.name,
+        user_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        timestamp: new Date().toLocaleString(),
+      };
 
-    toast({
-      title: "Feature Coming Soon",
-      description: "This contact form is under development. Please reach out via email or phone for now.",
-    });
+      const result = await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        templateParams,
+        EMAILJS_CONFIG.PUBLIC_KEY
+      );
 
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
+      if (result.status === 200) {
+        toast({
+          title: "Message Sent Successfully!",
+          description: "Thank you for reaching out. I'll get back to you as soon as possible.",
+        });
 
-    setIsSubmitting(false);
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      toast({
+        title: "Failed to Send Message",
+        description: "Please try again or reach out via email directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

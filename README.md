@@ -48,7 +48,16 @@ pnpm install
 bun install
 ```
 
-3. Start the development server:
+3. **Set up environment variables for the contact form:**
+```bash
+# Copy the example environment file
+cp .env.example .env
+
+# Edit .env and add your EmailJS credentials
+# Get your credentials from https://www.emailjs.com/
+```
+
+4. Start the development server:
 ```bash
 npm run dev
 # or
@@ -59,7 +68,7 @@ pnpm dev
 bun dev
 ```
 
-4. Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
+5. Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
 ## 📁 Project Structure
 
@@ -91,6 +100,23 @@ src/
 - Add new projects in `src/data/projects.json`
 - Update skills in `src/components/About.tsx`
 - All project data is centralized in JSON files for easy maintenance
+
+## 📧 Contact Form Setup
+
+The contact form uses EmailJS to send emails. To set it up:
+
+1. **Sign up for EmailJS** at [https://www.emailjs.com/](https://www.emailjs.com/)
+2. **Create an email service** (Gmail, Outlook, etc.)
+3. **Create an email template** with variables: `{{from_name}}`, `{{from_email}}`, `{{subject}}`, `{{message}}`
+4. **Get your credentials** (Public Key, Service ID, Template ID)
+5. **Update your `.env` file**:
+```env
+EMAILJS_PUBLIC_KEY=your_public_key
+EMAILJS_SERVICE_ID=your_service_id
+EMAILJS_TEMPLATE_ID=your_template_id
+```
+
+**Note**: The `.env` file is gitignored, so your credentials won't be exposed in the repository.
 
 ## 📦 Build & Deploy
 
